@@ -1,0 +1,161 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 2px;
+    padding: 0px;
+    font-family: 'Open Sans' ,sans-serif;
+    background-color: #ffffff;
+}
+
+.Navbar {
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+.Navbar img {
+    display: flex;
+    width: 400px;
+    padding: 100px 100px 100px 100px;
+}
+
+.logo a {
+    font-size: 100px;
+    font-weight: 1000;
+    float: left;
+    font-family: courier;
+    color: #000000;
+}
+
+.menu {
+    float: right;
+    font-size: 20px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ececec;
+    z-index: 2;
+    border: 2px solid #000000;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #5e71ff;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #222831;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #222831;
+    width: 100%;
+    line-height: 50px;
+}
+
+button.tbl-biru {
+    background: #84511b;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button.tbl-biru:hover {
+    background-color: #3F72AF;
+    text-decoration: none;
+}
+
+p {
+    padding: 20px 20px 20px 20px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-Koleksi {
+    width: 20%;
+    margin: 0 auto;   
+}
+
+.kartu-Koleksi img {
+    width: 80%;
+    border-radius: 50%;
+    display: block;
+     margin: auto;
+}
+
+.kartu-Koleksi p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-wrap: center;
+    color: #3F72AF;
+}
+
+.kartu-Koleksi p:hover {
+    font-family: 'comic sans ms' sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #ff00fb;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    font-family: 'comic sans ms';
+}
