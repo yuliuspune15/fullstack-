@@ -21,19 +21,20 @@ body {
     display: flex;
     width: 400px;
     padding: 100px 100px 100px 100px;
+    border-radius: 50%;
 }
 
 .logo a {
-    font-size: 100px;
-    font-weight: 1000;
+    font-size: 80px;
+    font-weight: 700;
     float: left;
-    font-family: courier;
-    color: #000000;
+    font-family: 'inter';
+    color: #db0707ea;
 }
 
 .menu {
     float: right;
-    font-size: 20px;
+    font-size: px;
 }
 
 nav {
@@ -44,9 +45,9 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background: #ececec;
+    background: #e8e8e8;
     z-index: 2;
-    border: 2px solid #000000;
+    border: 0px solid #000000;
 }
 
 nav ul li {
@@ -75,33 +76,36 @@ section {
 .kolom {
     margin-top: 50px;
     margin-bottom: 50px;
+    background-color: #ffffff;
 }
 
 .kolom .deskripsi {
-    font-size: 20px;
+    font-size: 45px;
     font-weight: bold;
-    font-family: 'comic sans ms';
-    color: #222831;
+    font-family: 'inter';
+    color: #242c38;
 }
 
 h2 {
-    font-family: 'comic sans ms';
+    font-family: 'inter';
     font-weight: 800;
-    font-size: 45px;
+    font-size: px;
     margin-bottom: 20px;
+    margin-left: 15px;
     color: #222831;
     width: 100%;
     line-height: 50px;
 }
 
 button.tbl-biru {
-    background: #84511b;
+    background: #ffffff;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
-    color: #FFFFFF;
+    color: #000000;
     cursor: pointer;
     font-weight: bold;
+    margin-left: 15px;
 }
 
 button.tbl-biru:hover {
@@ -111,9 +115,10 @@ button.tbl-biru:hover {
 
 p {
     padding: 20px 20px 20px 20px;
+    text-align: justify;
 }
 
-.tengah {
+.tengah-h2-p{
     text-align: center;
     width: 100%;
 }
